@@ -105,7 +105,7 @@ int main(void)
     for(int8_t i = n-1;i >= 0;i--)
     {
       Led_Set(led[i]);
-      HAL_Delay(500);
+      HAL_Delay(1000);
     }
     /* USER CODE BEGIN 3 */
   }
