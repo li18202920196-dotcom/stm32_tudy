@@ -1,0 +1,43 @@
+# ============== STM32 项目专属 .gitignore ==============
+# 1. Keil 编译输出目录（核心！必须忽略）
+MDK-ARM/
+Objects/
+Listings/
+RTE/
+DebugConfig/
+
+# 2. Keil 工程配置文件（可选，根据需求保留/忽略）
+*.uvproj
+*.uvoptx
+*.uvprojx
+*.uvguix
+*.uvgui.*
+*.uv5
+*.uv4
+
+# 3. 编译生成的二进制/中间文件
+*.hex
+*.axf
+*.bin
+*.elf
+*.crf
+*.d
+*.o
+*.lst
+*.map
+*.htm
+*.sct
+*.dbgconf
+
+# 4. VS Code 配置（可选，团队协作可忽略）
+.vscode/
+*.code-workspace
+c_cpp_properties.json
+keil-assistant.log
+
+# 5. 系统生成的临时文件
+Thumbs.db
+.DS_Store
+*.log
+*.lock
+EOF
